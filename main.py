@@ -3,7 +3,7 @@ import threading
 from pynput.mouse import Controller, Button
 from pynput.keyboard import Listener, KeyCode
 
-### Pressing 'x' will enable and disable auto-clicker
+### tecla "x" para habilitiar e desabilitar auto-clicker
 TOGGLE_KEY = KeyCode(char = "x") 
 
 clicking = False
