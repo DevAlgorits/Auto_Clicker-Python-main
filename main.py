@@ -13,7 +13,7 @@ def clicker():
     while True:
         if clicking:
             mouse.click(Button.left, 1)
-        time.sleep(0.00001) # Change this value in order to determine frequency of the click
+        time.sleep(0.0001) # valor para frequencia de click
 
 
 def toggle_event(key):
